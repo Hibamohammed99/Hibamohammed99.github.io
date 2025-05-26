@@ -1,10 +1,101 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Hiba mohammed Portfolio</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <p>This is my GitHub Pages website.</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hiba Mohammed - Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f9;
+      color: #333;
+    }
+    header {
+      background: #5e60ce;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      margin-top: 0;
+    }
+    .projects {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    .project {
+      padding: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background: #fafafa;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+    a {
+      color: #5e60ce;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hiba Mohammed</h1>
+    <p>Data Analyst | Electronics Engineer | Power BI Specialist</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>Hello! I'm Hiba, a passionate data analyst with a background in electronics engineering. I love transforming data into insights, visualizing trends, and solving real-world problems using technology.</p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Power BI Dashboard</h3>
+        <p>Analyzed telecom performance KPIs and built interactive reports to guide decision-making.</p>
+      </div>
+      <div class="project">
+        <h3>Customer Behavior Analysis</h3>
+        <p>Used Python and Excel to explore customer habits and recommend targeted campaigns.</p>
+      </div>
+      <div class="project">
+        <h3>Real Estate Price Prediction</h3>
+        <p>Developed a data model to predict rental prices using statistics and visual tools.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:hiba@example.com">hiba@example.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+    <p>GitHub: <a href="https://github.com/Hibamohammed99" target="_blank">github.com/Hibamohammed99</a></p>
+  </section>
+
+  <footer>
+    © 2025 Hiba Mohammed. All rights reserved.
+  </footer>
+
+</body>
 </html>
